@@ -1,0 +1,1114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "w. t. a. rankings",
+      "intents": [
+        {
+          "name": "PlayerRankingIntent",
+          "slots": [
+            {
+              "name": "PlayerName",
+              "type": "LIST_OF_PLAYERS"
+            }
+          ],
+          "samples": [
+            "{PlayerName}",
+            "the ranking of {PlayerName}",
+            "the current ranking of {PlayerName}",
+            "get the ranking of {PlayerName}",
+            "get the current ranking of {PlayerName}",
+            "get me the current ranking of {PlayerName}",
+            "tell me the current ranking of {PlayerName}",
+            "give me the current ranking of {PlayerName}",
+            "find out the current ranking of {PlayerName}",
+            "what is the ranking of {PlayerName}",
+            "what's is the ranking of {PlayerName}",
+            "what is the current ranking of {PlayerName}",
+            "what's is the current ranking of {PlayerName}"
+          ]
+        },
+        {
+          "name": "PlayerByRankingIntent",
+          "slots": [
+            {
+              "name": "Ranking",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{Ranking}",
+            "current world number {Ranking} player",
+            "current world number {Ranking} tennis player",
+            "world number {Ranking} ranked player",
+            "who is number {Ranking} player",
+            "who is the current number {Ranking} ranked player",
+            "who is the current number {Ranking} player",
+            "get number {Ranking} player",
+            "find number {Ranking} player",
+            "give number {Ranking} player",
+            "tell number {Ranking} player",
+            "get the current number {Ranking} player",
+            "get me the current number {Ranking} player",
+            "give the current number {Ranking} player",
+            "give me the current number {Ranking} player",
+            "find the current number {Ranking} player",
+            "find me the current number {Ranking} player",
+            "find out the world number {Ranking} player",
+            "find out the current number {Ranking} player",
+            "find out the current world number {Ranking} player"
+          ]
+        },
+        {
+          "name": "TopRankingIntent",
+          "slots": [
+            {
+              "name": "Top",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "top {Top} players",
+            "top {Top} tennis players",
+            "get the top {Top} players",
+            "get the top {Top} players in w. t. a. Rankings",
+            "find out the top {Top} players in w. t. a. Rankings",
+            "get me the top {Top} players",
+            "get me the top {Top} players in w. t. a. Rankings",
+            "tell me the top {Top} players in w. t. a. Rankings",
+            "Who are the top {Top} tennis players in the world",
+            "Who are the current top {Top} tennis players in the world",
+            "what are the top {Top} w. t. a. rankings",
+            "get the top {Top} w. t. a. rankings"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "thank you",
+            "goodbye"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Karolina  Pliskova"
+              }
+            },
+            {
+              "name": {
+                "value": "Simona Halep"
+              }
+            },
+            {
+              "name": {
+                "value": "Garbine Muguruza"
+              }
+            },
+            {
+              "name": {
+                "value": "Elina Svitolina"
+              }
+            },
+            {
+              "name": {
+                "value": "Caroline Wozniacki"
+              }
+            },
+            {
+              "name": {
+                "value": "Angelique Kerber"
+              }
+            },
+            {
+              "name": {
+                "value": "Johanna Konta"
+              }
+            },
+            {
+              "name": {
+                "value": "Svetlana Kuznetsova"
+              }
+            },
+            {
+              "name": {
+                "value": "Venus Williams"
+              }
+            },
+            {
+              "name": {
+                "value": "Dominika Cibulkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Agnieszka Radwanska"
+              }
+            },
+            {
+              "name": {
+                "value": "Jelena Ostapenko"
+              }
+            },
+            {
+              "name": {
+                "value": "Kristina Mladenovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Petra Kvitova"
+              }
+            },
+            {
+              "name": {
+                "value": "Serena Williams"
+              }
+            },
+            {
+              "name": {
+                "value": "Madison Keys"
+              }
+            },
+            {
+              "name": {
+                "value": "Anastasija Sevastova"
+              }
+            },
+            {
+              "name": {
+                "value": "Elena Vesnina"
+              }
+            },
+            {
+              "name": {
+                "value": "Caroline Garcia"
+              }
+            },
+            {
+              "name": {
+                "value": "Daria Gavrilova"
+              }
+            },
+            {
+              "name": {
+                "value": "Anastasia Pavlyuchenkova"
+              }
+            },
+            {
+              "name": {
+                "value": "CoCo Vandeweghe"
+              }
+            },
+            {
+              "name": {
+                "value": "Ana Konjuh"
+              }
+            },
+            {
+              "name": {
+                "value": "Shuai Peng"
+              }
+            },
+            {
+              "name": {
+                "value": "Barbora Strycova"
+              }
+            },
+            {
+              "name": {
+                "value": "Shuai Zhang"
+              }
+            },
+            {
+              "name": {
+                "value": "Kiki Bertens"
+              }
+            },
+            {
+              "name": {
+                "value": "Timea Bacsinszky"
+              }
+            },
+            {
+              "name": {
+                "value": "Anett Kontaveit"
+              }
+            },
+            {
+              "name": {
+                "value": "Lesia Tsurenko"
+              }
+            },
+            {
+              "name": {
+                "value": "Mirjana Lucic-Baroni"
+              }
+            },
+            {
+              "name": {
+                "value": "Magdalena Rybarikova"
+              }
+            },
+            {
+              "name": {
+                "value": "Julia Goerges"
+              }
+            },
+            {
+              "name": {
+                "value": "Lauren Davis"
+              }
+            },
+            {
+              "name": {
+                "value": "Carla Suarez Navarro"
+              }
+            },
+            {
+              "name": {
+                "value": "CiCi Bellis"
+              }
+            },
+            {
+              "name": {
+                "value": "Lucie Safarova"
+              }
+            },
+            {
+              "name": {
+                "value": "Daria Kasatkina"
+              }
+            },
+            {
+              "name": {
+                "value": "Elise Mertens"
+              }
+            },
+            {
+              "name": {
+                "value": "Ekaterina Makarova"
+              }
+            },
+            {
+              "name": {
+                "value": "Kristyna Pliskova"
+              }
+            },
+            {
+              "name": {
+                "value": "Katerina Siniakova"
+              }
+            },
+            {
+              "name": {
+                "value": "Ashleigh Barty"
+              }
+            },
+            {
+              "name": {
+                "value": "Samantha Stosur"
+              }
+            },
+            {
+              "name": {
+                "value": "Naomi Osaka"
+              }
+            },
+            {
+              "name": {
+                "value": "Alize Cornet"
+              }
+            },
+            {
+              "name": {
+                "value": "Roberta Vinci"
+              }
+            },
+            {
+              "name": {
+                "value": "Oceane Dodin"
+              }
+            },
+            {
+              "name": {
+                "value": "Alison Riske"
+              }
+            },
+            {
+              "name": {
+                "value": "Yulia Putintseva"
+              }
+            },
+            {
+              "name": {
+                "value": "Mona Barthel"
+              }
+            },
+            {
+              "name": {
+                "value": "Donna Vekic"
+              }
+            },
+            {
+              "name": {
+                "value": "Laura Siegemund"
+              }
+            },
+            {
+              "name": {
+                "value": "Sorana Cirstea"
+              }
+            },
+            {
+              "name": {
+                "value": "Irina-Camelia Begu"
+              }
+            },
+            {
+              "name": {
+                "value": "Qiang Wang"
+              }
+            },
+            {
+              "name": {
+                "value": "Monica Niculescu"
+              }
+            },
+            {
+              "name": {
+                "value": "Natalia Vikhlyantseva"
+              }
+            },
+            {
+              "name": {
+                "value": "Timea Babos"
+              }
+            },
+            {
+              "name": {
+                "value": "Lara Arruabarrena"
+              }
+            },
+            {
+              "name": {
+                "value": "Tatjana Maria"
+              }
+            },
+            {
+              "name": {
+                "value": "Shelby Rogers"
+              }
+            },
+            {
+              "name": {
+                "value": "Christina McHale"
+              }
+            },
+            {
+              "name": {
+                "value": "Varvara Lepchenko"
+              }
+            },
+            {
+              "name": {
+                "value": "Carina Witthoeft"
+              }
+            },
+            {
+              "name": {
+                "value": "Johanna Larsson"
+              }
+            },
+            {
+              "name": {
+                "value": "Marketa Vondrousova"
+              }
+            },
+            {
+              "name": {
+                "value": "Jelena Jankovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Camila Giorgi"
+              }
+            },
+            {
+              "name": {
+                "value": "Monica Puig"
+              }
+            },
+            {
+              "name": {
+                "value": "Beatriz Haddad Maia"
+              }
+            },
+            {
+              "name": {
+                "value": "Magda Linette"
+              }
+            },
+            {
+              "name": {
+                "value": "Kirsten Flipkens"
+              }
+            },
+            {
+              "name": {
+                "value": "Heather Watson"
+              }
+            },
+            {
+              "name": {
+                "value": "Veronica Cepede Royg"
+              }
+            },
+            {
+              "name": {
+                "value": "Eugenie Bouchard"
+              }
+            },
+            {
+              "name": {
+                "value": "Francesca Schiavone"
+              }
+            },
+            {
+              "name": {
+                "value": "Aleksandra Krunic"
+              }
+            },
+            {
+              "name": {
+                "value": "Ekaterina Alexandrova"
+              }
+            },
+            {
+              "name": {
+                "value": "Nao Hibino"
+              }
+            },
+            {
+              "name": {
+                "value": "Madison Brengle"
+              }
+            },
+            {
+              "name": {
+                "value": "Yaroslava Shvedova"
+              }
+            },
+            {
+              "name": {
+                "value": "Sloane Stephens"
+              }
+            },
+            {
+              "name": {
+                "value": "Saisai Zheng"
+              }
+            },
+            {
+              "name": {
+                "value": "Petra Martic"
+              }
+            },
+            {
+              "name": {
+                "value": "Sara Sorribes Tormo"
+              }
+            },
+            {
+              "name": {
+                "value": "Jana Cepelova"
+              }
+            },
+            {
+              "name": {
+                "value": "Aliaksandra Sasnovich"
+              }
+            },
+            {
+              "name": {
+                "value": "Evgeniya Rodina"
+              }
+            },
+            {
+              "name": {
+                "value": "Denisa Allertova"
+              }
+            },
+            {
+              "name": {
+                "value": "Jennifer Brady"
+              }
+            },
+            {
+              "name": {
+                "value": "Ying-Ying Duan"
+              }
+            },
+            {
+              "name": {
+                "value": "Andrea Petkovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Misaki Doi"
+              }
+            },
+            {
+              "name": {
+                "value": "Maria Sakkari"
+              }
+            },
+            {
+              "name": {
+                "value": "Risa Ozaki"
+              }
+            },
+            {
+              "name": {
+                "value": "Alison Van Uytvanck"
+              }
+            },
+            {
+              "name": {
+                "value": "Pauline Parmentier"
+              }
+            },
+            {
+              "name": {
+                "value": "Ons Jabeur"
+              }
+            },
+            {
+              "name": {
+                "value": "Bethanie Mattek-Sands"
+              }
+            },
+            {
+              "name": {
+                "value": "Richel Hogenkamp"
+              }
+            },
+            {
+              "name": {
+                "value": "Su-Wei Hsieh"
+              }
+            },
+            {
+              "name": {
+                "value": "Mandy Minella"
+              }
+            },
+            {
+              "name": {
+                "value": "Viktorija Golubic"
+              }
+            },
+            {
+              "name": {
+                "value": "Maryna Zanevska"
+              }
+            },
+            {
+              "name": {
+                "value": "Danka Kovinic"
+              }
+            },
+            {
+              "name": {
+                "value": "Mariana Duque Mariño"
+              }
+            },
+            {
+              "name": {
+                "value": "Ana Bogdan"
+              }
+            },
+            {
+              "name": {
+                "value": "Zarina Diyas"
+              }
+            },
+            {
+              "name": {
+                "value": "Kateryna Bondarenko"
+              }
+            },
+            {
+              "name": {
+                "value": "Aryna Sabalenka"
+              }
+            },
+            {
+              "name": {
+                "value": "Lin Zhu"
+              }
+            },
+            {
+              "name": {
+                "value": "Kai-Chen Chang"
+              }
+            },
+            {
+              "name": {
+                "value": "Kristie Ahn"
+              }
+            },
+            {
+              "name": {
+                "value": "Julia Boserup"
+              }
+            },
+            {
+              "name": {
+                "value": "Kurumi Nara"
+              }
+            },
+            {
+              "name": {
+                "value": "Francoise Abanda"
+              }
+            },
+            {
+              "name": {
+                "value": "Kateryna Kozlova"
+              }
+            },
+            {
+              "name": {
+                "value": "Taylor Townsend"
+              }
+            },
+            {
+              "name": {
+                "value": "Yafan Wang"
+              }
+            },
+            {
+              "name": {
+                "value": "Tereza Martincova"
+              }
+            },
+            {
+              "name": {
+                "value": "Irina Khromacheva"
+              }
+            },
+            {
+              "name": {
+                "value": "Barbora Krejcikova"
+              }
+            },
+            {
+              "name": {
+                "value": "Xinyun Han"
+              }
+            },
+            {
+              "name": {
+                "value": "Naomi Broady"
+              }
+            },
+            {
+              "name": {
+                "value": "Patricia Maria Tig"
+              }
+            },
+            {
+              "name": {
+                "value": "Nicole  Gibbs"
+              }
+            },
+            {
+              "name": {
+                "value": "Kayla Day"
+              }
+            },
+            {
+              "name": {
+                "value": "Yanina Wickmayer"
+              }
+            },
+            {
+              "name": {
+                "value": "Anna Blinkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Jana Fett"
+              }
+            },
+            {
+              "name": {
+                "value": "Jasmine Paolini"
+              }
+            },
+            {
+              "name": {
+                "value": "Mihaela Buzarnescu"
+              }
+            },
+            {
+              "name": {
+                "value": "Arina Rodionova"
+              }
+            },
+            {
+              "name": {
+                "value": "Viktoria Kuzmova"
+              }
+            },
+            {
+              "name": {
+                "value": "Tsvetana Pironkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Asia Muhammad"
+              }
+            },
+            {
+              "name": {
+                "value": "Tamara Korpatsch"
+              }
+            },
+            {
+              "name": {
+                "value": "Sofia Kenin"
+              }
+            },
+            {
+              "name": {
+                "value": "Annika Beck"
+              }
+            },
+            {
+              "name": {
+                "value": "Su- Jeong Jang"
+              }
+            },
+            {
+              "name": {
+                "value": "Dalma Galfi"
+              }
+            },
+            {
+              "name": {
+                "value": "Arantxa Rus"
+              }
+            },
+            {
+              "name": {
+                "value": "Martina Trevisan"
+              }
+            },
+            {
+              "name": {
+                "value": "Bernarda Pera"
+              }
+            },
+            {
+              "name": {
+                "value": "Maria Sharapova"
+              }
+            },
+            {
+              "name": {
+                "value": "Sofya Zhuk"
+              }
+            },
+            {
+              "name": {
+                "value": "Quirine Lemoine"
+              }
+            },
+            {
+              "name": {
+                "value": "Luksika Kumkhum"
+              }
+            },
+            {
+              "name": {
+                "value": "Lizette Cabrera"
+              }
+            },
+            {
+              "name": {
+                "value": "Destanee Aiava"
+              }
+            },
+            {
+              "name": {
+                "value": "Louisa Chirico"
+              }
+            },
+            {
+              "name": {
+                "value": "Barbara Haas"
+              }
+            },
+            {
+              "name": {
+                "value": "Sachia Vickery"
+              }
+            },
+            {
+              "name": {
+                "value": "Viktoriya Tomova"
+              }
+            },
+            {
+              "name": {
+                "value": "Cagla Buyukakcay"
+              }
+            },
+            {
+              "name": {
+                "value": "Jamie Loeb"
+              }
+            },
+            {
+              "name": {
+                "value": "Elizaveta Kulichkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Sabina Sharipova"
+              }
+            },
+            {
+              "name": {
+                "value": "Danielle Collins"
+              }
+            },
+            {
+              "name": {
+                "value": "Caroline Dolehide"
+              }
+            },
+            {
+              "name": {
+                "value": "Fangzhou Liu"
+              }
+            },
+            {
+              "name": {
+                "value": "Anna Kalinskaya"
+              }
+            },
+            {
+              "name": {
+                "value": "Alexandra Cadantu"
+              }
+            },
+            {
+              "name": {
+                "value": "Ipek Soylu"
+              }
+            },
+            {
+              "name": {
+                "value": "Eri Hozumi"
+              }
+            },
+            {
+              "name": {
+                "value": "Grace Min"
+              }
+            },
+            {
+              "name": {
+                "value": "Lucie Hradecka"
+              }
+            },
+            {
+              "name": {
+                "value": "Bianca Andreescu"
+              }
+            },
+            {
+              "name": {
+                "value": "Sabine Lisicki"
+              }
+            },
+            {
+              "name": {
+                "value": "Lesley Kerkhove"
+              }
+            },
+            {
+              "name": {
+                "value": "Marie Bouzkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Basak Eraydin"
+              }
+            },
+            {
+              "name": {
+                "value": "Polina Monova"
+              }
+            },
+            {
+              "name": {
+                "value": "Anna Karolina Schmiedlova"
+              }
+            },
+            {
+              "name": {
+                "value": "Marina Erakovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Olga Govortsova"
+              }
+            },
+            {
+              "name": {
+                "value": "Kathinka Von Deichmann"
+              }
+            },
+            {
+              "name": {
+                "value": "Miyu Kato"
+              }
+            },
+            {
+              "name": {
+                "value": "Ivana Jorovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Jil Teichmann"
+              }
+            },
+            {
+              "name": {
+                "value": "Amanda Anisimova"
+              }
+            },
+            {
+              "name": {
+                "value": "Nina Stojanovic"
+              }
+            },
+            {
+              "name": {
+                "value": "Xinyu Gao"
+              }
+            },
+            {
+              "name": {
+                "value": "Antonia Lottner"
+              }
+            },
+            {
+              "name": {
+                "value": "Anhelina Kalinina"
+              }
+            },
+            {
+              "name": {
+                "value": "Vera Lapko"
+              }
+            },
+            {
+              "name": {
+                "value": "Rebecca Sramkova"
+              }
+            },
+            {
+              "name": {
+                "value": "Silvia Soler-Espinosa"
+              }
+            },
+            {
+              "name": {
+                "value": "Victoria Kamenskaya"
+              }
+            },
+            {
+              "name": {
+                "value": "Valentini Grammatikopoulou"
+              }
+            },
+            {
+              "name": {
+                "value": "Polona Hercog"
+              }
+            },
+            {
+              "name": {
+                "value": "Conny Perrin"
+              }
+            },
+            {
+              "name": {
+                "value": "Chloe Paquet"
+              }
+            },
+            {
+              "name": {
+                "value": "Peangtarn Plipuech"
+              }
+            },
+            {
+              "name": {
+                "value": "Rebecca Peterson"
+              }
+            },
+            {
+              "name": {
+                "value": "Irina Bara"
+              }
+            },
+            {
+              "name": {
+                "value": "Tamara Zidansek"
+              }
+            },
+            {
+              "name": {
+                "value": "Belinda Bencic"
+              }
+            },
+            {
+              "name": {
+                "value": "Georgina Garcia Perez"
+              }
+            }
+          ],
+          "name": "LIST_OF_PLAYERS"
+        }
+      ]
+    }
+  }
+}

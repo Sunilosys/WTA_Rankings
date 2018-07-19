@@ -1,0 +1,137 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Get the current WTA Rankings",
+          "examplePhrases": [
+            "Alexa, open w. t. a. Rankings and get the current ranking of Serena Williams",
+            "Alexa, open w. t. a. Rankings and get the current number three player",
+            "Alexa, open w. t. a. Rankings and get the top 10 players"
+          ],
+          "keywords": [
+            "WTA",
+            "Rankings",
+            "Tennis",
+            "Players",
+            "Tennis",
+            "Rankings",
+            "Women's",
+            "Tennis"
+          ],
+          "name": "WTA Rankings",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a06/ebcddfcd4bf74043ae5bdf632aa8db6a/APP_ICON?versionId=PUyxqjyiUns7hfiG.717._7USg3nqvTG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=eg87j1K7YciDZl0JW7wTWg4e2aQ%3D",
+          "description": "This unofficial skill provides the current WTA rankings. You can say, what is the current ranking of a particular player, who is the current number one player, who are the current top 10 players.\n\nHOW TO USE:\n\nTo Get Started: Say \"Alexa Open w. t. a. Rankings\". \n\nSay \"What is the current ranking of {player name}\"\nFor example \"What is the current ranking of Karolina Pliskova\"\n\n{player name} - Player Name (ex. Karolina Pliskova, Simona Halep, Garbiñe Muguruza, Serena Villiams etc)\n\nSay \"Who is the current number {ranking} player\"\nFor example \"Who is the current number one player\"\n\n{ranking} - No (1 - 200)\n\nSay \"Who are the current top {index} players in the world\"\nFor example \"Who are the current top 10 players in the world\"\n\n{index} - No (1 - 25)\n\nFor any of the above interactions, you can also use the one-shot phrasing.\n\nFor example \n\"Open w. t. a. Rankings and get the current ranking of Serena Williams\"\n\"Open w. t. a. Rankings and get the current number three player\"\n\"Open w. t. a. Rankings and get the top 5 players\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/678b/fe450890670a4dc4a02f94475ced3157/APP_ICON_LARGE?versionId=8r37h24R6MsXHyzpYqRZ8roXoIa5nhCD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=Xd68lqBasyf%2F%2FMaSOsxdficz1mc%3D"
+        },
+        "en-CA": {
+          "summary": "Get the current WTA Rankings",
+          "examplePhrases": [
+            "Alexa, open w. t. a. Rankings and get the current ranking of Serena Williams",
+            "Alexa, open w. t. a. Rankings and get the current number three player",
+            "Alexa, open w. t. a. Rankings and get the top 10 players"
+          ],
+          "keywords": [
+            "WTA",
+            "Rankings",
+            "Tennis",
+            "Players",
+            "Tennis",
+            "Rankings",
+            "Women's",
+            "Tennis"
+          ],
+          "name": "WTA Rankings",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a06/ebcddfcd4bf74043ae5bdf632aa8db6a/APP_ICON?versionId=PUyxqjyiUns7hfiG.717._7USg3nqvTG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=eg87j1K7YciDZl0JW7wTWg4e2aQ%3D",
+          "description": "This unofficial skill provides the current WTA rankings. You can say, what is the current ranking of a particular player, who is the current number one player, who are the current top 10 players.\n\nHOW TO USE:\n\nTo Get Started: Say \"Alexa Open w. t. a. Rankings\". \n\nSay \"What is the current ranking of {player name}\"\nFor example \"What is the current ranking of Karolina Pliskova\"\n\n{player name} - Player Name (ex. Karolina Pliskova, Simona Halep, Garbiñe Muguruza, Serena Villiams etc)\n\nSay \"Who is the current number {ranking} player\"\nFor example \"Who is the current number one player\"\n\n{ranking} - No (1 - 200)\n\nSay \"Who are the current top {index} players in the world\"\nFor example \"Who are the current top 10 players in the world\"\n\n{index} - No (1 - 25)\n\nFor any of the above interactions, you can also use the one-shot phrasing.\n\nFor example \n\"Open w. t. a. Rankings and get the current ranking of Serena Williams\"\n\"Open w. t. a. Rankings and get the current number three player\"\n\"Open w. t. a. Rankings and get the top 5 players\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/678b/fe450890670a4dc4a02f94475ced3157/APP_ICON_LARGE?versionId=8r37h24R6MsXHyzpYqRZ8roXoIa5nhCD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=Xd68lqBasyf%2F%2FMaSOsxdficz1mc%3D"
+        },
+        "en-IN": {
+          "summary": "Get the current WTA Rankings",
+          "examplePhrases": [
+            "Alexa, open w. t. a. Rankings and get the current ranking of Serena Williams",
+            "Alexa, open w. t. a. Rankings and get the current number three player",
+            "Alexa, open w. t. a. Rankings and get the top 10 players"
+          ],
+          "keywords": [
+            "WTA",
+            "Rankings",
+            "Tennis",
+            "Players",
+            "Tennis",
+            "Rankings",
+            "Women's",
+            "Tennis"
+          ],
+          "name": "WTA Rankings",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a06/ebcddfcd4bf74043ae5bdf632aa8db6a/APP_ICON?versionId=PUyxqjyiUns7hfiG.717._7USg3nqvTG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=eg87j1K7YciDZl0JW7wTWg4e2aQ%3D",
+          "description": "This unofficial skill provides the current WTA rankings. You can say, what is the current ranking of a particular player, who is the current number one player, who are the current top 10 players.\n\nHOW TO USE:\n\nTo Get Started: Say \"Alexa Open w. t. a. Rankings\". \n\nSay \"What is the current ranking of {player name}\"\nFor example \"What is the current ranking of Karolina Pliskova\"\n\n{player name} - Player Name (ex. Karolina Pliskova, Simona Halep, Garbiñe Muguruza, Serena Villiams etc)\n\nSay \"Who is the current number {ranking} player\"\nFor example \"Who is the current number one player\"\n\n{ranking} - No (1 - 200)\n\nSay \"Who are the current top {index} players in the world\"\nFor example \"Who are the current top 10 players in the world\"\n\n{index} - No (1 - 25)\n\nFor any of the above interactions, you can also use the one-shot phrasing.\n\nFor example \n\"Open w. t. a. Rankings and get the current ranking of Serena Williams\"\n\"Open w. t. a. Rankings and get the current number three player\"\n\"Open w. t. a. Rankings and get the top 5 players\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/678b/fe450890670a4dc4a02f94475ced3157/APP_ICON_LARGE?versionId=8r37h24R6MsXHyzpYqRZ8roXoIa5nhCD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=Xd68lqBasyf%2F%2FMaSOsxdficz1mc%3D"
+        },
+        "en-AU": {
+          "summary": "Get the current WTA Rankings",
+          "examplePhrases": [
+            "Alexa, open w. t. a. Rankings and get the current ranking of Serena Williams",
+            "Alexa, open w. t. a. Rankings and get the current number three player",
+            "Alexa, open w. t. a. Rankings and get the top 10 players"
+          ],
+          "keywords": [
+            "WTA",
+            "Rankings",
+            "Tennis",
+            "Players",
+            "Tennis",
+            "Rankings",
+            "Women's",
+            "Tennis"
+          ],
+          "name": "WTA Rankings",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a06/ebcddfcd4bf74043ae5bdf632aa8db6a/APP_ICON?versionId=PUyxqjyiUns7hfiG.717._7USg3nqvTG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=eg87j1K7YciDZl0JW7wTWg4e2aQ%3D",
+          "description": "This unofficial skill provides the current WTA rankings. You can say, what is the current ranking of a particular player, who is the current number one player, who are the current top 10 players.\n\nHOW TO USE:\n\nTo Get Started: Say \"Alexa Open w. t. a. Rankings\". \n\nSay \"What is the current ranking of {player name}\"\nFor example \"What is the current ranking of Karolina Pliskova\"\n\n{player name} - Player Name (ex. Karolina Pliskova, Simona Halep, Garbiñe Muguruza, Serena Villiams etc)\n\nSay \"Who is the current number {ranking} player\"\nFor example \"Who is the current number one player\"\n\n{ranking} - No (1 - 200)\n\nSay \"Who are the current top {index} players in the world\"\nFor example \"Who are the current top 10 players in the world\"\n\n{index} - No (1 - 25)\n\nFor any of the above interactions, you can also use the one-shot phrasing.\n\nFor example \n\"Open w. t. a. Rankings and get the current ranking of Serena Williams\"\n\"Open w. t. a. Rankings and get the current number three player\"\n\"Open w. t. a. Rankings and get the top 5 players\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/678b/fe450890670a4dc4a02f94475ced3157/APP_ICON_LARGE?versionId=8r37h24R6MsXHyzpYqRZ8roXoIa5nhCD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=Xd68lqBasyf%2F%2FMaSOsxdficz1mc%3D"
+        },
+        "en-GB": {
+          "summary": "Get the current WTA Rankings",
+          "examplePhrases": [
+            "Alexa, open w. t. a. Rankings and get the current ranking of Serena Williams",
+            "Alexa, open w. t. a. Rankings and get the current number three player",
+            "Alexa, open w. t. a. Rankings and get the top 10 players"
+          ],
+          "keywords": [
+            "WTA",
+            "Rankings",
+            "Tennis",
+            "Players",
+            "Tennis",
+            "Rankings",
+            "Women's",
+            "Tennis"
+          ],
+          "name": "WTA Rankings",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a06/ebcddfcd4bf74043ae5bdf632aa8db6a/APP_ICON?versionId=PUyxqjyiUns7hfiG.717._7USg3nqvTG&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=eg87j1K7YciDZl0JW7wTWg4e2aQ%3D",
+          "description": "This unofficial skill provides the current WTA rankings. You can say, what is the current ranking of a particular player, who is the current number one player, who are the current top 10 players.\n\nHOW TO USE:\n\nTo Get Started: Say \"Alexa Open w. t. a. Rankings\". \n\nSay \"What is the current ranking of {player name}\"\nFor example \"What is the current ranking of Karolina Pliskova\"\n\n{player name} - Player Name (ex. Karolina Pliskova, Simona Halep, Garbiñe Muguruza, Serena Villiams etc)\n\nSay \"Who is the current number {ranking} player\"\nFor example \"Who is the current number one player\"\n\n{ranking} - No (1 - 200)\n\nSay \"Who are the current top {index} players in the world\"\nFor example \"Who are the current top 10 players in the world\"\n\n{index} - No (1 - 25)\n\nFor any of the above interactions, you can also use the one-shot phrasing.\n\nFor example \n\"Open w. t. a. Rankings and get the current ranking of Serena Williams\"\n\"Open w. t. a. Rankings and get the current number three player\"\n\"Open w. t. a. Rankings and get the top 5 players\"",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/678b/fe450890670a4dc4a02f94475ced3157/APP_ICON_LARGE?versionId=8r37h24R6MsXHyzpYqRZ8roXoIa5nhCD&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074342&Signature=Xd68lqBasyf%2F%2FMaSOsxdficz1mc%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No Special Instructions",
+      "category": "SPORTS_NEWS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_WTARanking"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

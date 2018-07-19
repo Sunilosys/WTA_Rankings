@@ -1,0 +1,52 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.b793579e-e764-4647-b356-a88b152522c8",
+      "was_cloned": true,
+      "resources": {
+        "manifest": {
+          "eTag": "67b5cda20c452ffef363c4a3db5c9f70"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "e08b609a4a01c310eb46ed773e0203ec"
+          },
+          "en-CA": {
+            "eTag": "e08b609a4a01c310eb46ed773e0203ec"
+          },
+          "en-IN": {
+            "eTag": "e08b609a4a01c310eb46ed773e0203ec"
+          },
+          "en-AU": {
+            "eTag": "e08b609a4a01c310eb46ed773e0203ec"
+          },
+          "en-GB": {
+            "eTag": "e08b609a4a01c310eb46ed773e0203ec"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:471325060569:function:WTARanking",
+            "awsRegion": "us-east-1",
+            "functionName": "WTARanking",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "0f156327-8dd4-4bad-b501-1e84e48d7675"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:471325060569:function:WTARanking"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
